@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ccfbf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #0d9488;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.photo1 {
+
+    background-image: url(./img/pexels-anastasiia-chaikovska-17636489.jpg);
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+    }
+    
+    .photo2 {
+    
+    background-image: url(./img/pexels-yaroslav-shuraev-8968486.jpg);
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+    }
+    
+    
+    .photo3 {
+    
+    background-image: url(./img/pexels-yaroslav-shuraev-8968674\ \(1\).jpg);
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+    }
+    
+
+#arrow {
+  display: flex;
+  gap: 300px;
+  height: 100%;
+  align-items: center;
+  fill: #ccfbf1;
+}
+
+.arrow {
+  display: flex;
+  height: 50px;
+}
